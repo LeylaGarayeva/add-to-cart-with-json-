@@ -1,0 +1,195 @@
+body{
+  margin: 0px;
+
+}
+ul.grid{
+  background: #aaa;
+  width: 550px;
+  border: 1px solid;
+}
+.container{
+  overflow-x: hidden;
+}
+ul.grid li{
+  list-style: none;
+  display: block;
+  /*background: skyblue;*/
+  max-height: 48px;
+  /*max-width: 100px;*/
+  margin: 6px;
+  /*border: 1px solid;*/
+}
+
+.append{
+
+
+}
+.append .add{
+  display: none;
+}
+.append .apimg{
+  height: 50px;
+  width: 30px;
+  float: left;
+}
+.append .proname{
+  float: left;
+}
+.append .clear{
+  display: block;
+}
+/*ul.grid2{
+  background: #aaa;
+  border: 1px solid;
+}*/
+.grid2{
+  margin-right: 33%;
+}
+ul.grid2 li{
+  list-style: none;
+  display: inline-block;
+  background:  #c379d0;
+ box-shadow: 5px 10px 18px #888888;
+  margin: 6px;
+  margin-bottom: 20px;
+}
+.collection{
+  min-height: 130px;
+  /*max-width: 450px;*/
+  background:  #c379d0;
+}
+.collection2{
+  width: 100%;
+    background-image: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cal{
+  float: right;
+  /*display: none;*/
+}
+.draggablediv{
+ margin-top: 50px;
+}
+.draggable{
+  cursor: pointer;
+}
+.icon-remove{
+  margin-left: 70px;
+  cursor: pointer;
+}
+
+.heading{
+  background: #999;
+  color: white;
+  float: right;
+}
+.mobile{
+  height: 280px;
+  width: 150px;
+  padding: 15px;
+}
+.clearfix{
+  clear: both;
+}
+.mobile img{
+  width:100%;
+  height: 150px;
+}
+.mobile p{
+  text-align: center;
+  color:white;
+}
+.add{
+  border:1px solid white;
+  padding: 5px;
+}
+.basliq{
+  text-align: center;
+  color:#c379d0;
+}
+i{
+  color:white;
+}
+
+.list ul li{
+  list-style: none;
+  display: inline;
+  color:white;
+  padding: 15px;
+}
+
+/* #itemCount{
+  float: left;
+}*/
+.clear{
+  display: none;
+}
+
+.menu ul li{
+  display: inline;
+  list-style: none;
+  padding: 60px;
+  color: white;
+  border-right: 2px solid #a032b3;
+   padding-bottom: 22px;
+   padding-top: 12px;
+
+}
+.menu{
+  background-color: #c379d0;
+  padding: 10px;
+
+}
+
+.slider{
+  margin: 20px 0px;
+  height: 360px;
+}
+
+.menu ul li:hover{
+  background:#12bacf;
+}
+
+
+
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    width: 260px;
+    z-index: 1;
+    background: #c379d0;
+    color:white;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.hover,.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content img{
+  width: 15%;
+  float:left;
+  padding:2px;
+}
+.dropdown-content p{
+  color:white;
+  margin-left: 15px;
+  float: left;
+}

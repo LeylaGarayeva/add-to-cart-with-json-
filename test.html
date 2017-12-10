@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	    	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <header>
+    <h1>Your Shopping Cart</h1>
+    <div id="cart-container">
+      <div id="cart">
+        <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+        <button class="clear">Empty Cart</button>
+      </div>
+      <span id="itemCount"></span>
+    </div>
+  </header>
+
+  <div class="item">
+    <div class="itemDetails">
+      <div class="itemImage">
+        <img src="http://lorempixel.com/300/300/sports" alt="" />
+      </div>
+      <div class="itemText">
+        <p class="price">Price: €10</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam at optio nam asperiores ipsam voluptate eaque labore.</p>
+      </div>
+    </div>
+    <button class="add">Add to cart</button>
+  </div>
+
+  <script type="text/javascript">
+  	var itemCount = 0;
+
+$('.add').click(function (){
+  itemCount ++;
+  $('#itemCount').html(itemCount).css('display', 'block');
+}); 
+
+$('.clear').click(function() {
+  itemCount = 0;
+  $('#itemCount').html('').css('display', 'none');
+  $('#cartItems').html('');
+}); 
+  </script>
+</body>
+</html>
